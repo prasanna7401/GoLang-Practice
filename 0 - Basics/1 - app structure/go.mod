@@ -1,3 +1,3 @@
-module golang-practice/app-structure
+module main.go
 
-go 1.24.4
+go 1.24.2
