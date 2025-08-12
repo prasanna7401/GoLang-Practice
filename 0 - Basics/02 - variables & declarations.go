@@ -44,7 +44,7 @@ func main() {
 
 	fmt.Println(ii, jj)
 
-	//** Short Declaration (works only in Block Scope!) **//
+	//** Short Declaration (works only in Local/Block Scope!) **//
 
 	// := (colon equals syntax) used only when declaring a new variable (or at least a new variable)
 	// := tells go we are going to create a new variable and go figures out what type it will be
