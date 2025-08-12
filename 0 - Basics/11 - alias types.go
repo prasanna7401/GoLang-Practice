@@ -12,7 +12,9 @@ func main() {
 	var a uint8 = 10
 	var b byte // byte is an alias to uit8
 	
-	// even though they have different names, byte and uit8 are the same type because they are aliases
+	var b byte // byte is an alias to uint8
+	
+	// even though they have different names, byte and uint8 are the same type because they are aliases
 	b = a // no error
 	_ = b
 	
