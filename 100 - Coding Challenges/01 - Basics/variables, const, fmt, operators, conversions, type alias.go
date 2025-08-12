@@ -69,7 +69,10 @@ func main() {
 	// ERRROR ->  You cannot initiate a constant at runtime (constants belong to compile-time)
 	// const xc int = x  // variables belong to runtime
 
-	// ERRROR ->  You cannot initiate a constant at runtime (constants belong to compile-time)
+	// ERROR ->  You cannot initiate a constant at runtime (constants belong to compile-time)
+	// const xc int = x  // variables belong to runtime
+
+	// ERROR ->  You cannot initiate a constant at runtime (constants belong to compile-time)
 	// const noIPv6 = math.Pow(2, 128) // functions calls belong to runtime
 
 	const (
