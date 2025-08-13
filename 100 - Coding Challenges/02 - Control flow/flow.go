@@ -23,7 +23,7 @@ func main() {
 		}
 		fmt.Println(i)
 		count++
-		if count == 5 { // stop after printing 5 numbers
+		if count == 3 { // stop after printing 3 numbers
 			break
 		}
 	}
