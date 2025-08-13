@@ -127,9 +127,9 @@ func main() {
 	var q = 3.2
 	var s1, s2 = "3.14", "5"
 
-	// p1 := string(p) // int to string - WRONG => p1:: string
-	// OR
-	p1 := strconv.Itoa(p) // int to string - BEST => p1:3: string
+	// WRONG: p1 := string(p) // int to string (incorrect)
+	// CORRECT:
+	p1 := strconv.Itoa(p) // int to string (best practice)
 
 	// s2_new, err := strconv.ParseInt(s2, 10, 64) // string to int64, base 10 => 5: int64
 	s2_new, err := strconv.Atoi(s2) // => 5: int
