@@ -52,6 +52,6 @@ func main() {
 	case age == 18:
 		fmt.Println("Congrats! You are an adult now")
 	default:
-		fmt.Println("You are a senior")
+		fmt.Println("You are an adult")
 	}
 }
