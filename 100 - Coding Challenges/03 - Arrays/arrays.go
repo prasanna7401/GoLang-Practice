@@ -26,7 +26,7 @@ func main() {
 	nums := [...]int{30, -1, -6, 90, -6}
 	positiveEvenCount := 0
 	for _, num := range nums {
-		if num < 0 && num%2 == 0 {
+		if num > 0 && num%2 == 0 {
 			positiveEvenCount++
 		}
 	}
