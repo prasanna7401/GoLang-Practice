@@ -27,7 +27,7 @@ func main() {
 	}
 	fmt.Println(len(names)) // -> 5
 
-	// un unkeyed element gets its index from the last keyed element
+	// an unkeyed element gets its index from the last keyed element
 	cities := [...]string{
 		5:        "Paris",
 		"London", // this is at index 6
