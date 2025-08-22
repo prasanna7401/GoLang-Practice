@@ -64,7 +64,8 @@ func main() {
 	}
 
 	fmt.Printf("Sum: %d, Product: %d\n", sum, product) // => Sum: 10, Product: 30 (for inputs 2 3 5)
-
+		fmt.Printf("Sum: %d, Product: %d\n", sum, product) // => Sum: 10, Product: 30 (for inputs 2 3 5)
+	}
 	// END
 
 	// Calculate the sum of the middle elements
