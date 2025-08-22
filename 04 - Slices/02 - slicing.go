@@ -33,7 +33,7 @@ func main() {
     fmt.Println(s1[2:])       // => [3 4 5 6], same as s1[2:len(s1)]
     fmt.Println(s1[:3])       // => [1 2 3], same as s1[0:3]
     fmt.Println(s1[:])        // => [1 2 3 4 5 6], same with s1[0:len(s1)]
-    fmt.Println(s1[:len(s1)]) // => => [1 2 3 4 5 6], returns the entire slice
+    fmt.Println(s1[:len(s1)]) // => [1 2 3 4 5 6], returns the entire slice
     // fmt.Println(s1[:45])   //panic: runtime error: slice bounds out of range
  
     s1 = append(s1[:4], 100) // adds 100 after index 4 (excluded)
