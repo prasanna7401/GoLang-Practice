@@ -41,6 +41,6 @@ func main() {
     newCars = append(newCars, cars[0:2]...)
  
     cars[0] = "Nissan"                              // only cars is modified
-    fmt.Println("cars:", cars, "newCars:", newCars) // => cars: [Nissan Honda Audi Range Rover] newCars: [Ford Honda
+    fmt.Println("cars:", cars, "newCars:", newCars) // => cars: [Nissan Honda Audi Range Rover] newCars: [Ford Honda]
  
 }
