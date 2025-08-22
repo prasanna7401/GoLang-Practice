@@ -28,7 +28,7 @@ func main() {
     s2 := s1[1:3]   //start included, stop excluded
     fmt.Println(s2) //[2 3]
  
-    //for convenience, any of the indexis may be omitted.
+    //for convenience, any of the indices may be omitted.
     // a missing low index defaults to zero; a missing high index defaults to the length of the sliced operand.
     fmt.Println(s1[2:])       // => [3 4 5 6], same as s1[2:len(s1)]
     fmt.Println(s1[:3])       // => [1 2 3], same as s1[0:3]
